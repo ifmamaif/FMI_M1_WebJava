@@ -4,7 +4,131 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b9d3d9f-b30d-44f8-a920-fb017c751a3f" name="Changes" comment="" />
+    <list default="true" id="0b9d3d9f-b30d-44f8-a920-fb017c751a3f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/SpringFoxConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/controllers/CharacterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/controllers/EnemyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/controllers/InventoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/controllers/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/controllers/SpellController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/controllers/WorldObjectController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Character/CreateCharacterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Character/CreateCharacterResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Character/DeleteCharacterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Character/DeleteCharacterResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Character/GetCharacterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Character/GetCharacterResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Character/UpdateCharacterRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Character/UpdateCharacterResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Enemy/CreateEnemyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Enemy/CreateEnemyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Enemy/DeleteEnemyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Enemy/DeleteEnemyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Enemy/GetEnemyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Enemy/GetEnemyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Enemy/UpdateEnemyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Enemy/UpdateEnemyResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Inventory/CreateInventoryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Inventory/CreateInventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Inventory/DeleteInventoryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Inventory/DeleteInventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Inventory/GetInventoryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Inventory/GetInventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Inventory/UpdateInventoryRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Inventory/UpdateInventoryResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Item/CreateItemRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Item/CreateItemResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Item/DeleteItemRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Item/DeleteItemResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Item/GetItemRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Item/GetItemResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Item/UpdateItemRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Item/UpdateItemResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Spell/CreateSpellRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Spell/CreateSpellResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Spell/DeleteSpellRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Spell/DeleteSpellResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Spell/GetSpellRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Spell/GetSpellResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Spell/UpdateSpellRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/Spell/UpdateSpellResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/User/DeleteUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/User/DeleteUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/User/LoginUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/User/LoginUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/User/RegisterUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/User/RegisterUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/User/UpdateUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/User/UpdateUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/WorldObject/CreateWorldObjectRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/WorldObject/CreateWorldObjectResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/WorldObject/DeleteWorldObjectRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/WorldObject/DeleteWorldObjectResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/WorldObject/GetWorldObjectRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/WorldObject/GetWorldObjectResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/WorldObject/UpdateWorldObjectRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/dto/WorldObject/UpdateWorldObjectResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/model/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/model/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/model/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/model/Spell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/model/WorldObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/repository/CharacterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/repository/CharacterRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/repository/EnemyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/repository/EnemyRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/repository/InventoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/repository/InventoryRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/repository/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/repository/ItemRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/repository/SpellRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/repository/SpellRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/repository/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/repository/WorldObjectRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/repository/WorldObjectRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/services/CharacterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/services/CharacterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/services/EnemyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/services/EnemyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/services/InventoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/services/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/services/ItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/services/SpellService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/services/SpellServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/services/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/services/WorldObjectService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MainApp/services/WorldObjectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainApp/controllers/CharacterServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainApp/controllers/EnemyServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainApp/controllers/InventoryServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainApp/controllers/ItemServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainApp/controllers/SpellServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainApp/controllers/UserServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MainApp/controllers/WorldObjectServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainApp/helpers/TokenGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainApp/models/Inventory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainApp/repo/DataBaseRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainApp/repo/RedisConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainApp/services/HelloWorld.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainApp/services/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainApp/services/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MainApp/services/Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainApp/helpers/TokenGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainApp/helpers/TokenGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainApp/models/Inventory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainApp/models/Inventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainApp/repo/DataBaseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainApp/repo/RedisConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainApp/services/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainApp/services/InventoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainApp/services/InventoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainApp/services/Login.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +137,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Record" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -41,33 +166,35 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/MainApp/dto/Spell" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Proiecte\Facultate\JavaWeb\FMI_M1_WebJava_Tema1\src\main\java\MainApp\dto\Spell" />
+      <recent name="D:\Proiecte\Facultate\JavaWeb\FMI_M1_WebJava_Tema1\src\main\java\MainApp\dto\WorldObject" />
+      <recent name="D:\Proiecte\Facultate\JavaWeb\FMI_M1_WebJava_Tema1\src\main\java\MainApp\dto\Enemy" />
+      <recent name="D:\Proiecte\Facultate\JavaWeb\FMI_M1_WebJava_Tema1\src\main\java\MainApp\dto\Inventory" />
+      <recent name="D:\Proiecte\Facultate\JavaWeb\FMI_M1_WebJava_Tema1\src\main\java\MainApp\dto\Character" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Proiecte\Facultate\JavaWeb\Proiect1\src\main\java\dece" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="MainApp.controllers" />
       <recent name="" />
     </key>
   </component>
   <component name="RunManager" selected="Application.App">
-    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="App" />
-      <module name="Proiect1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="17" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="App" />
-      <module name="Proiect1" />
+      <option name="MAIN_CLASS_NAME" value="MainApp.App" />
+      <module name="FMI_M1_WebJava_Tema1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="MainApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,15 +241,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="extractor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extractor" />
-      <module name="Proiect1" />
+    <configuration name="CharacterServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FMI_M1_WebJava_Tema1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="MainApp.controllers.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="MainApp.controllers" />
+      <option name="MAIN_CLASS_NAME" value="MainApp.controllers.CharacterServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharacterServiceImplTest.testCreateCharacterThatDoesntExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FMI_M1_WebJava_Tema1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MainApp.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MainApp.controllers" />
+      <option name="MAIN_CLASS_NAME" value="MainApp.controllers.CharacterServiceImplTest" />
+      <option name="METHOD_NAME" value="testCreateCharacterThatDoesntExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharacterServiceImplTest.testGetCharacterThatDoesExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FMI_M1_WebJava_Tema1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MainApp.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MainApp.controllers" />
+      <option name="MAIN_CLASS_NAME" value="MainApp.controllers.CharacterServiceImplTest" />
+      <option name="METHOD_NAME" value="testGetCharacterThatDoesExist" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CharacterServiceImplTest.testUpdateCharacterThatDoesExist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FMI_M1_WebJava_Tema1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MainApp.controllers.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="MainApp.controllers" />
+      <option name="MAIN_CLASS_NAME" value="MainApp.controllers.CharacterServiceImplTest" />
+      <option name="METHOD_NAME" value="testUpdateCharacterThatDoesExist" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,9 +307,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.App (2)" />
-        <item itemvalue="Application.extractor" />
+        <item itemvalue="JUnit.CharacterServiceImplTest.testUpdateCharacterThatDoesExist" />
+        <item itemvalue="JUnit.CharacterServiceImplTest" />
+        <item itemvalue="JUnit.CharacterServiceImplTest.testGetCharacterThatDoesExist" />
+        <item itemvalue="JUnit.CharacterServiceImplTest.testCreateCharacterThatDoesntExist" />
       </list>
     </recent_temporary>
   </component>
@@ -163,5 +341,71 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MainApp/repository/ItemRepositoryImpl.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MainApp/services/InventoryServiceImpl.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MainApp/repository/CharacterRepositoryImpl.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MainApp/repository/CharacterRepositoryImpl.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MainApp/services/UserServiceImpl.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MainApp/services/UserServiceImpl.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MainApp/repository/UserRepositoryImpl.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/MainApp/controllers/SpellServiceImplTest.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MainApp/repository/SpellRepositoryImpl.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/MainApp/controllers/SpellServiceImplTest.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MainApp/repository/SpellRepositoryImpl.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/MainApp/controllers/CharacterServiceImplTest.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
